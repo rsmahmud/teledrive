@@ -1,6 +1,10 @@
 name: Goreleaser
 
 on:
+ workflow_dispatch:
+    inputs:
+      test_name:
+        type: string
   push:
     tags:
       - "*"
