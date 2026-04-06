@@ -48,4 +48,4 @@ If you like this project small contribution would be appreciated [Paypal](https:
  </picture>
 </a>
 
-## Trigger tag v1.8.5
+## Trigger tag v1.8.6
