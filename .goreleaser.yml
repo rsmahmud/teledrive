@@ -1,5 +1,5 @@
 version: 2
-project_name: teledrive
+project_name: tdrive
 env:
   - GO111MODULE=on
 
