@@ -22,14 +22,14 @@ builds:
     goos:
       - linux
       - windows
-      # - darwin
+      - darwin
     goarch:
       - amd64
-      # - arm
-      # - arm64
+      - arm
+      - arm64
     ignore:
       - goos: windows
-        # goarch: arm
+        goarch: arm
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
@@ -77,11 +77,11 @@ changelog:
       order: 3
   filters:
     exclude:
-      - '^README'
-      - '^Update'
-      - '^Version'
-      - '^ci:'
-      - '^docs:'
+      - "^README"
+      - "^Update"
+      - "^Version"
+      - "^ci:"
+      - "^docs:"
       - Merge pull request
       - Merge branch
 
