@@ -1,14 +1,19 @@
 name: Goreleaser
 
 on:
- workflow_dispatch:
+  # Trigger manually through the Actions tab
+  workflow_dispatch:
     inputs:
       test_name:
+        description: 'Optional test run name'
+        required: false
         type: string
   
+  # Trigger automatically when a new tag is pushed
   push:
     tags:
-      - "*"
+      - "*"  # Matches any tag (e.g., v1.0.0)
+
 
 permissions: write-all
 
