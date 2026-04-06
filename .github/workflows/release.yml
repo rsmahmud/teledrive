@@ -5,6 +5,7 @@ on:
     inputs:
       test_name:
         type: string
+  
   push:
     tags:
       - "*"
