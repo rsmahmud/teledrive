@@ -47,3 +47,5 @@ If you like this project small contribution would be appreciated [Paypal](https:
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tgdrive/teldrive&type=Date" />
  </picture>
 </a>
+
+## Trigger tag v1.8.4
