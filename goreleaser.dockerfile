@@ -1,5 +1,5 @@
 FROM scratch
 ARG TARGETPLATFORM
-COPY $TARGETPLATFORM/teledrive /teldrive
+COPY $TARGETPLATFORM/teledrive /teledrive
 EXPOSE 8080
-ENTRYPOINT ["/teldrive","run"]
+ENTRYPOINT ["/teledrive","run"]
